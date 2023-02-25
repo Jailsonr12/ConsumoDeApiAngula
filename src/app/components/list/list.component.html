@@ -1,0 +1,8 @@
+<div class="row">
+  <ul class="list-group">
+    <li *ngFor="let item of resultListResults$ | async" class="list-item d-flex justify-between-content">
+      <span class="col">{{ item.name }}</span>
+      <a class="btn btn-primary"> Ver {{item.name}}</a>
+    </li>
+  </ul>
+</div>

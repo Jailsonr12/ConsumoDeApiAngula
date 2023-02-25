@@ -1,0 +1,102 @@
+.container {
+  max-width: 1140px;
+}
+
+.list-item {
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  vertical-align: top;
+}
+
+.list-item:nth-child(3n + 1) {
+  clear: both;
+}
+
+.card {
+  height: 100%;
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  background-color: #0a090900;
+}
+
+.card:hover {
+  border-color: #28a745;
+}
+
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.border-success {
+  border-color: #28a745 !important;
+}
+
+.bg-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+  background-color: #28a745;
+  color: #fff;
+  box-shadow: 20px rgba(0, 0, 0, 0.5);
+}
+
+.modal-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-shadow: 1px 1px #000;
+}
+
+.modal-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.modal-body p {
+  margin-bottom: 0.5rem;
+  font-family: Arial, sans-serif;
+}
